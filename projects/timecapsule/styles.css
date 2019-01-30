@@ -1,13 +1,6 @@
 body {
   background-color: black;
 }
-h1 {
-  color:white;
-  margin-left: 250px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 40px;
-  position: absolute;
-}
 img {
 	width: 100%;
 	max-width: 500px;

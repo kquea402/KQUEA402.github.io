@@ -2,8 +2,8 @@ body {
   background-color: white;
     color: black;
   margin-left: 20px;
-  font-family: nimbus-sans, sans-serif;
-  font-weight: 700;
+  font-family: akzidenz-grotesk, sans-serif;
+  font-weight: 400;
   font-size: 20px;
   font-style: normal;
 
@@ -11,8 +11,8 @@ body {
 h1 {
   color: black;
   margin-left: 20px;
-  font-family: nimbus-sans, sans-serif;
-  font-weight: 700;
+  font-family: akzidenz-grotesk, sans-serif;
+  font-weight: 800px;
   font-size: 50px;
   font-style: normal;
   position: center;
@@ -20,8 +20,8 @@ h1 {
 h2 {
   color: black;
   margin-left: 20px;
-  font-family: nimbus-sans, sans-serif;
-  font-weight: 100;
+  font-family: akzidenz-grotesk, sans-serif;
+  font-weight: 800;
   font-size: 25px;
   font-style: normal;
   position: center;

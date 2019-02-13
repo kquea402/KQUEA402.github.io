@@ -2,6 +2,7 @@ html,
 body,{
 	height: 100%;
 	background-color: #fffef9;
+	margin: 0px;
 }
 .container {
   display: flex;
@@ -9,12 +10,96 @@ body,{
   justify-content: center;
 }
 .box1{
-	width: 1000px;
-	height: 800px;
+	width: 600px;
+	height: 5000px;
 	background-color: black;
 }
 .box2{
-	width: 7000px;
-	height: 800px;
+	width: 6000px;
+	height: 5000px;
 	background-color: #fffef9;
 }
+.box3{
+	width: 600px;
+	height: 5000px;
+	background-color: black;
+}
+.box4{
+	width: 7000px;
+	height: 5000px;
+	background-color: #fffef9;
+}
+.box5{
+	width: 600px;
+	height: 5000px;
+	background-color: black;
+}
+.box6{
+	width: 600px;
+	height: 5000px;
+	background-color: #fffef9;
+}
+.box7{
+	width: 600px;
+	height: 5000px;
+	background-color: black;
+}
+.box8{
+	width: 7000px;
+	height: 5000px;
+	background-color: #fffef9;
+}
+.box9{
+	width: 600px;
+	height: 5000px;
+	background-color: black;
+}
+.box10{
+	width: 600px;
+	height: 5000px;
+	background-color: #fffef9;
+}
+.box11{
+	width: 600px;
+	height: 5000px;
+	background-color: #fffef9;
+}
+.box12{
+	width: 600px;
+	height: 5000px;
+	background-color: black;
+}
+.box13{
+	width: 600px;
+	height: 5000px;
+	background-color: #fffef9;
+}
+.box14{
+	width: 600px;
+	height: 5000px;
+	background-color: black;
+}
+.box15{
+	width: 600px;
+	height: 5000px;
+	background-color: #fffef9;
+}
+.box16{
+	width: 7000px;
+	height: 5000px;
+	background-color: black;
+}
+.box17{
+	width: 600px;
+	height: 5000px;
+	background-color: #fffef9;
+}
+.box18{
+	width: 600px;
+	height: 5000px;
+	background-color: black;
+}
+.box18{
+	width: 600px;
+	height: 5000px;
+	background-color: black;

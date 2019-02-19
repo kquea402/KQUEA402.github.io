@@ -1,0 +1,155 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: white;
+  margin: 2.5vw auto;
+  position: relative;
+}
+
+/* Your CSS goes here */
+.table {
+    width: 65%;
+    height: 26%;
+    left: 18%;
+    top: 74%;
+    background-color: #a3a3a3;
+    position: absolute;
+    z-index: 0;
+}
+.book-top {
+    width: 8%;
+    height: 4%;
+    background-color: #30f8ff;
+    position: absolute;
+    top: 68%;
+    left: 70%;
+}
+.book-bottom {
+    width: 10%;
+    height: 2%;
+    background-color: #fff693;
+    position: absolute;
+    top: 72%;
+    left: 69%;
+}
+.orange1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: orange;
+    position: absolute;
+    top: 68%;
+    left: 46%;
+}
+.orange2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: orange;
+    position: absolute;
+    top: 68%;
+    left: 51%;
+}
+.orange3 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: orange;
+    position: absolute;
+    top: 75%;
+    left: 49%;
+}
+.camera {
+    width: 6%;
+    height: 5%;
+    background-color: #0c0c28;
+    position: absolute;
+    top: 63%;
+    left: 71%;
+}
+.vase {
+    width: 6%;
+    height: 17%;
+    background-color: #bfe3ff;
+    position: absolute;
+    top: 57%;
+    left: 57%;
+}
+.flower1{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ff4d35;
+  position: absolute;
+  top: 51%;
+  left: 60%;
+}
+.flower2{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ff4d35;
+  position: absolute;
+  top: 54%;
+  left: 61%;
+
+}
+.flower3{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ff4d35;
+  position: absolute;
+  top: 51%;
+  left: 57%;
+
+}
+.cat{
+  width: 50px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: #e5e3d7;
+  position: absolute;
+  top: 63%;
+  left: 28%;
+}
+.cat-ear1{
+  width: 10px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #e5e3d7;
+  position: absolute;
+  top: 63%;
+  left: 28%;
+
+}
+.cat-ear2{
+  width: 10px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #e5e3d7;
+  position: absolute;
+  top: 63%;
+  left: 33%;
+}
+.bag {
+  width: 70px;
+  height: 65px;
+  background-color: #002ad6;
+  position: absolute;
+  top: 72%;
+  left: 21%;
+}

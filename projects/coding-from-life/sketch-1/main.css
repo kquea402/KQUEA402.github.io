@@ -16,33 +16,61 @@ body {
   position: relative;
   justify-content: center;
 }
-.cat{
-	 width: 80px;
-      height: 100px;
-      background: #ffe1ad;
-      border-radius: 50%;
-
-    }
-.table{
-	width: 600px;
-	height: 200px;
-	background: #474747;
-	margin: 100px;
-	position: absolute;
-}
-.orange{
-	position: absolute;
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	background: #ff8c00;
-	top:20;
-    bottom:0;
-      left:0;
-      right:0;
-}
-
-
-}
 
 /* Your CSS goes here */
+
+.table{
+  width: 600px;
+  height: 200px;
+  background: #474747;
+  position: absolute;
+  top:20;
+  bottom:0;
+  left: 185px;
+  right:0;
+
+}
+.orange{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ff8c00;
+  top:20;
+  bottom: 60px;
+  left: 430px;
+  right:0;
+}
+.orange1{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ff8c00;
+  top:20;
+  bottom: 60px;
+  left: 475px;
+  right:0;
+}
+.cat{
+  width: 80px;
+  height: 100px;
+  background: #ffe1ad;
+  border-radius: 50%;
+  position: absolute;
+  top:60;
+  bottom:0;
+  left: 250px;
+  right:0;
+
+}
+.book{
+  width: 80px;
+  height: 30px;
+  background: #00ffff;
+  position: absolute;
+  bottom: 66px;
+  left: 600px;
+
+
+}

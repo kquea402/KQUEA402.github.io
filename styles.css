@@ -1,29 +1,25 @@
 body {
-  background-color: white;
-  color: black;
-  margin-left: 20px;
-  font-family: akzidenz-grotesk, sans-serif;
-  font-size: 20px;
-  font-style: normal;
-
-
-}
-h1 {
-  color: black;
-  margin-left: 20px;
-  font-family: akzidenz-grotesk, sans-serif;
-  font-weight: 400px;
-  font-size: 80px;
-  font-style: normal;
-  position: center;
-}
-h2 {
+  background-color: #c1c1c1;
   color: black;
   margin-left: 20px;
   font-family: akzidenz-grotesk, sans-serif;
   font-weight: 400;
   font-size: 25px;
   font-style: normal;
-  position: center;
+  text-align: left;
 }
 
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}

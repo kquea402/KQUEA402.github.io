@@ -1,0 +1,78 @@
+body{
+background: black;
+font-family: Helvetica, sans-serif;
+font-size: 40px;
+position: relative;
+color: black;
+text-decoration: underline;
+}
+
+.sup{
+  font-family: Helvetica, sans-serif;
+  color: white;
+  position: absolute;
+  left: 68px;
+  animation-duration: 10s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+@keyframes slidein {
+  from {
+    margin-left:100%;
+    width:300%
+  }
+  
+  to {
+    margin-left:0%;
+    width:100%;
+}
+
+}
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
+
+
+.track{
+  column-count: 3;
+position: relative;
+top: 5%;
+left: 5%;
+
+.time{
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+  color: #474747;
+  text-decoration: underline;
+  width:300px;
+  float:left
+  position: relative;
+  top: 5%;
+  left: 5%;
+  -webkit-animation: blink 0s step-end infinite;
+  animation: blink .3s step-end infinite;
+@-webkit-keyframes blink { 50% { visibility: hidden; }}
+        @keyframes blink { 50% { visibility: hidden; }}
+
+}
+
+
+

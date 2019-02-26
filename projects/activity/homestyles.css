@@ -1,0 +1,38 @@
+body{
+background-color: black;
+font-family: Helvetica, sans-serif;
+font-size: 40px;
+color: white;
+position: absolute;
+top: 0%;
+left:5%;
+}
+
+
+.blink {
+    -webkit-animation: blink 0s step-end infinite;
+    animation: blink .3s step-end infinite;
+
+}
+@-webkit-keyframes blink { 50% { visibility: hidden; }}
+        @keyframes blink { 50% { visibility: hidden; }}
+
+         /* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}

@@ -1,0 +1,42 @@
+body {
+  background-color: #ff6b99;
+}
+.container {
+  diplay: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(74, 107, 129);
+  position: absolute;
+  top: 130px;
+  left: 330px;
+  height: 600px;
+  width: 600px;
+  }
+        
+.box1{
+    width: 200px;
+    height: 200px;
+    background: #c10000;
+    position: relative;
+    top: 274px;
+    left: 195px;
+}
+
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+#square1 {
+    animation: rotation 3s infinite linear;
+}
+
+
+
+

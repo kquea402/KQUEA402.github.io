@@ -1,8 +1,26 @@
 body{
 	background: #d6d6d6;
-	position: relative;
-	font-family: 
-	  position: absolute;
-  top: 130px;
-  left: 330px;
+	display: flex;
+
+}
+.name{
+	font-family: grotesque-mt, arial, sans-serif;
+	color: black;
+    font-size: 100px;
+    margin: 40px;
+
+}
+.arrow{
+    position: relative;
+    top: 1600px;
+    left: 3000px;
+    font-family: grotesque-mt, arial, sans-serif;
+    color: black;
+    font-size: 400px;
+}
+.media{
+	width: 200px;
+	height: auto;
+    height: 88px;
+    display: inline-block;
 }

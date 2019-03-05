@@ -1,26 +1,20 @@
 body {
-  background-color: #ff6b99;
+  background-color: #0b0a38;
 }
+
+
+
+/*Simplified your CSS, just use flexbox w/o the css positioning elements. you might need to tweak your HTML so that the box is nexted inside of square1 */
 .container {
-  diplay: flex;
+  position: relative;
+  display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: space-around;
   background: rgb(74, 107, 129);
-  position: absolute;
-  top: 130px;
-  left: 330px;
-  height: 600px;
-  width: 600px;
-  }
-        
-.box1{
-    width: 200px;
-    height: 200px;
-    background: #c10000;
-    position: relative;
-    top: 274px;
-    left: 195px;
+  height: 700px;
+
+
 }
 
 
@@ -33,10 +27,22 @@ body {
     }
 }
 
+.box1 {
+  height: 300px;
+  width: 200px;
+  background: #c10000;
+  animation: rotation 3s infinite linear;
+    position: absolute;
+    left: 25vw;
+    top: 13vw;
+}
 #square1 {
     animation: rotation 3s infinite linear;
+    background-color:#ff6b99;
+    height: 600px;
+    width: 400px;
+    position: absolute;
+    left: 25vw;
+    top: 2vw;
+
 }
-
-
-
-

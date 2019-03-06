@@ -1,26 +1,29 @@
 body{
-	background: #d6d6d6;
-	display: flex;
+    background: #d6d6d6;
+      width:1000px; /* The width is fixed by pixels */
+         height:800px; /* The height is fixed by pixels*/
+                           color:#fff;
+                            background-color:red;
+
 
 }
 .name{
-	font-family: grotesque-mt, arial, sans-serif;
-	color: black;
+    font-family: grotesque-mt, arial, sans-serif;
+    color: black;
     font-size: 100px;
     margin: 40px;
 
 }
 .arrow{
     position: relative;
-    top: 1600px;
-    left: 3000px;
+    top: 100px;
+    left: 300px;
     font-family: grotesque-mt, arial, sans-serif;
     color: black;
     font-size: 400px;
 }
 .media{
-	width: 200px;
-	height: auto;
-    height: 88px;
     display: inline-block;
+    width: 300px;
+    height: auto;
 }

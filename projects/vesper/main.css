@@ -1,29 +1,17 @@
 body{
-    background: #d6d6d6;
-      width:1000px; /* The width is fixed by pixels */
-         height:800px; /* The height is fixed by pixels*/
-                           color:#fff;
-                            background-color:red;
-
-
+ /* The height is fixed by pixels*/
+        background-color:#a3a3a3;
 }
 .name{
-    font-family: grotesque-mt, arial, sans-serif;
+    font-family: Helvetica, arial, sans-serif;
     color: black;
-    font-size: 100px;
+    font-size: 30px;
     margin: 40px;
 
 }
-.arrow{
-    position: relative;
-    top: 100px;
-    left: 300px;
-    font-family: grotesque-mt, arial, sans-serif;
-    color: black;
-    font-size: 400px;
-}
 .media{
-    display: inline-block;
-    width: 300px;
-    height: auto;
+    position: relative;
+    text-align: center;
+ 
+  
 }

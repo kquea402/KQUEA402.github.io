@@ -1,0 +1,23 @@
+/* Your styles go here */
+body{
+	font-family: Helvetica,Arial,sans-serif;
+	text-align: center;
+	
+}
+.button{
+
+	border: 2px solid black;
+	padding: 20px 50px;
+	display: inline-block;
+	cursor: pointer;
+}
+.words{
+	font-size: 80px;
+	display: none;
+
+}
+
+.words.active{
+	display: block;
+
+}

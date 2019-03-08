@@ -15,3 +15,30 @@ body{
  
   
 }
+
+.link{
+	font-family: Helvetica, arial, sans-serif;
+  
+    font-size: 30px;
+    margin: 40px;
+
+	/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(238, 195, 236);
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+}

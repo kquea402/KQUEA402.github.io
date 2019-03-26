@@ -1,0 +1,20 @@
+body{
+	background-color: #b79882;
+}
+
+.flex-container {
+top: 60px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.clock-part {
+font-family: Helvetica, Arial, sans-serif
+}
+
+.letters{
+
+	font-size: 120px;
+}
+

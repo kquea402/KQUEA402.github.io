@@ -1,1 +1,11 @@
 /* Your styles go here */
+body{
+	background: black;
+	font-family: Helvetica,Arial,sans-serif;
+	color: white;
+	font-size: 80px;
+}
+
+.letter {
+	display: none;
+}

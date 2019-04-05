@@ -1,0 +1,143 @@
+<div class="container1">
+<div class="song">
+						The Promise
+						When Doves Cry 
+						Keep Your Head Up
+						Le Boom Vent Suite 
+						Teenage blue
+						As If by Blaque
+						Don’t Run Into The Dark So Quick
+						There is a light that never goes out
+						Hot Girl
+						A Whiter Shade of Pale
+						You’ve Lost That Lovin’ Feelin’ 
+						In The Air Tonight
+						Don’t Let Me Be Misunderstood
+						Overcome
+						The Edge of Glory
+						That Girl
+						Valerie
+						A Better Place to Be
+						Ocean
+						Coming of Age
+						Wither
+						Modern Love
+						My Favorite Wine is Tequila
+						Neon Moon
+						Stay
+						Runaway
+						Toi Et Moi
+						40 Day Dream
+						Blu
+						Dream a Little Dream of Me
+						Lovely Day
+						Burnin’ Up
+						Never You Done That
+						Dancing On My Own
+						La Villa Strangiato
+						Reflection
+						How Deep is Your Love
+						Boys Don’t Cry
+						I Walk the Line
+						I’ve Just Seen a Face
+						Seventeen
+						It’s Uncanny
+						At Last
+						Gloria
+						Island Song
+						The Chain
+						Plastic Trees
+						Como La Flor
+						Breakin' My Heart
+						Under Control
+						Steps
+					</div>
+				</div>
+						<div class="artist">
+							When in Rome
+							Prince 
+							Tupac
+							Jill Scott 
+							dreamgirl 
+							Blaque
+							Jon Bap
+							The Smiths
+							The Stallion
+							Procol Harum
+							The Righteous Brothers 
+							Phil Collins 1981
+							Nina Simone
+							Tricky
+							Lady Gaga
+							Pharrell Ft Snoop Dogg
+							Amy Winehouse
+							Harry Chapin
+							Dontask
+							Foster the People
+							Shakey Graves
+							David Bowie
+							Michael Franti & Spearhead
+							Brooks & Dunn
+							Sara Bareilles
+							Galantis
+							Paradis
+							Edward Sharpe and the Magnetic Zeros
+							offonoff
+							The Mamas and Papas
+							Bill Withers
+							The Jonas Brothers
+							General Public
+							Robyn
+							Rush 
+							Tool
+							The Beegees
+							The Cure 
+							Johnny Cash
+							The Beatles
+							Sjowgren
+							Hall & Oates
+							Etta James
+							Tierra Whack
+							Zac Brown Band 
+							Fleetwood Mac
+							Radiohead
+							Selena
+							Mint Condition
+							The Strokes
+							Vampire Weekend
+
+						</div>
+
+
+
+
+
+						function createGrid(size) {
+var i, 
+    height = $(window).height(),
+    width = $(window).width(),
+    ratioW = Math.floor(width/size),    
+    ratioH = Math.floor(height/size); 
+
+for (i=0; i<= ratioW; i++) 
+    $('<div />').css({
+            'top': 1, 
+            'left': i * size, 
+            'width': 1, 
+            'height': height })
+        .addClass('gridlines')
+        .appendTo('body');
+
+    for (i=0; i<= ratioH; i++)
+        $('<div />').css({
+            'top': 1 + i * size, 
+            'left': 0, 
+            'width': width, 
+            'height': 1 })
+        .addClass('gridlines')
+        .appendTo('body');
+
+    $('.gridlines').show();
+}
+
+createGrid(40);

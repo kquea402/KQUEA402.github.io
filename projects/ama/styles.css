@@ -3,12 +3,13 @@ body{
 	cursor: url('assets/img/cursor.png'), default;
   	max-width: 50%;
   	font-family: Helvetica,sans-serif;
-	font-size: 90px;
+	font-size: 110px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	position: fixed;
-    top: 50%;
+
+  position: relative;
+    top: 60%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);	

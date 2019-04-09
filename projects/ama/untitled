@@ -141,3 +141,16 @@ for (i=0; i<= ratioW; i++)
 }
 
 createGrid(40);
+
+
+
+.song{
+	font-size: 40px
+  	position: absolute;
+  	bottom: 1000px;
+ 	left: 500px;
+  	display: none;
+}
+.song:hover {
+  display: block;
+}

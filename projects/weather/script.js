@@ -1,4 +1,4 @@
-var url = 'http://api.openweathermap.org/data/2.5/weather?q=New+York&units=imperial&appid=be50dd36b67269580c4577af42f2870e';
+var url = 'https://api.openweathermap.org/data/2.5/weather?q=New+York&units=imperial&appid=be50dd36b67269580c4577af42f2870e';
 $.get(url, function(results) {
   // The get request fires a callback function when the API request finishes
   console.log(results);

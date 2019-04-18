@@ -1,19 +1,22 @@
 {
-  "adjective1": "",
-  "adjective2": "",
-  "artSupply": "",
-  "computerSoftware": "",
-  "websiteName": "",
-  "artistName": "",
-  "celebrityName": "",
-  "noun1": "",
-  "noun2": "",
-  "pluralNoun1": "",
-  "pluralNoun2": "",
-  "pluralNoun3": "",
-  "verbEndingInIng": "",
-  "placeInNewYork": "",
-  "bodyPart": "",
-  "numbers": [],
-  "foods": []
+  "adjective1": "heinous",
+  "adjective2": "slimy",
+  "artSupply": "micron pen",
+  "computerSoftware": "sublime text",
+  "websiteName": "porn hub",
+  "artistName": "Henri Matisse",
+  "celebrityName": "Pete Davidson",
+  "noun1": "Timothee Chalamet",
+  "noun2": "trust fund",
+  "pluralNoun1": "peaches",
+  "pluralNoun2": "beanbags",
+  "pluralNoun3": "socks",
+  "verbEndingInIng": "stroking",
+  "placeInNewYork": "Time Square",
+  "bodyPart": "butt cheek",
+  "numbers": [8, 1, 42, 36],
+  "foods": ["everything bagel with veggie cream cheese" 
+  "croissant"
+  "skinny pop" 
+  "medjool dates"]
 }

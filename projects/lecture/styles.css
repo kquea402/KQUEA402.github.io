@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'helvetica_neueregular';
+    src: url('helvetica_neue-webfont.woff2') format('woff2'),
+     url('helvetica_neue-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	font-family:'helvetica_neueregular', Helvetica ;
+	font-size: 80px;
+	color: black;
+	background: white;
+	text-align: center;
+	top: 150px;
+	position: relative;
+
+}
+
+.blinking{
+	cursor: pointer;
+    animation:blinkingText .7s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: rgb(92,133,176);    }
+    50%{    color: rgb(224,192,158); }
+    100%{   color: rgb(145,200,184);    }
+}

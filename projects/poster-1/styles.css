@@ -16,6 +16,7 @@
 
 body{
     background: rgb(104,75,244);
+     overflow: hidden;
 }
 
 .boxed {

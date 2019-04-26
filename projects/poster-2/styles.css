@@ -15,7 +15,7 @@
 }
 
 body{
-    background: rgb(104,75,244);
+    background: rgb(0,255,0);
 }
 
 .boxed {
@@ -59,15 +59,6 @@ body{
     left: 0px;
 }
 
-
-.blink {
-    -webkit-animation: blink 0s step-end infinite;
-    animation: blink 1.5s step-end infinite;
-
-}
-@-webkit-keyframes blink { 50% { visibility: hidden; }}
-        @keyframes blink { 50% { visibility: hidden; }}
-      
 .boxed-1 {
   border: 1.5px solid black;
   background-color: white;
@@ -104,3 +95,52 @@ body{
     top: 320px;
     left: 20px;
 }
+
+.blink {
+    -webkit-animation: blink 0s step-end infinite;
+    animation: blink 1.5s step-end infinite;
+
+}
+@-webkit-keyframes blink { 50% { visibility: hidden; }}
+        @keyframes blink { 50% { visibility: hidden; }}
+      
+.boxed-2 {
+  border: 1.5px solid black;
+  background-color: white;
+  width: 560px;
+  height: 750px;
+  position: relative;
+  top: -1100px;
+  transform: rotate(-12deg);
+
+}
+
+.pre-2{
+  font-family:'helvetica_neueregular', Helvetica ;
+  font-size: 40px;
+  color: black;
+  position: relative;
+    top: 20px;
+    left: 20px;
+}
+.sanchi-1 { 
+  font-family:'ideologyregular_heavy', Helvetica ;
+    font-size: 40px;
+    color: rgb(104,75,244);
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.address-2{
+    font-family:'helvetica_neueregular', Helvetica ;
+    font-size: 20px;
+    color: black;
+    position: relative;
+    position: relative;
+    top: 320px;
+    left: 20px;
+}
+
+
+
+

@@ -6,4 +6,3 @@ $(".box").draggable({
    
     });
 
-}

@@ -1,0 +1,146 @@
+body{
+	background-color: black;
+ }
+.int{
+	text-decoration: none;
+	font-family: times;
+	font-size: 50px;
+	color: white;
+	position: absolute;
+  	top: 50%;
+  	left: 320%;
+  	transform: translate(-50%, -50%);
+}
+
+.button{
+	cursor: url("imgs/mouse.png")
+	
+}
+
+.button:hover{
+cursor: url("imgs/mouse.png"), auto !important; }
+
+#vid1{
+	position: absolute;
+	left: 25%;
+	top: 45%;
+}
+
+#vid2{
+	position: absolute;
+	left: 3%;
+	top: 20%;
+}
+
+
+#vid4{
+	position: absolute;
+	left: 20%;
+	top: 3%
+
+}
+#vid5{
+	position: absolute;
+	left: 0%;
+	top: 60%;
+
+}
+
+#vid6{
+	position: absolute;
+	left: 42%;
+	top: 28%;
+
+}
+
+#vid7{
+	position: absolute;
+	left: 52%;
+	top: 36%;
+
+}
+
+#vid8{
+	position: absolute;
+	left: 590%;
+	top: 26%;
+
+}
+
+#vid9{
+	position: absolute;
+	left: 206%;
+	top: 41%;
+
+}
+
+#vid10{
+	position: absolute;
+	left: 46%;
+	top: 28%;
+
+}
+
+#vid11{
+	position: absolute;
+	left: 640%;
+	top: 12%;
+
+}
+
+#vid12{
+	position: absolute;
+left: 73%;
+	top: -5%;
+
+}
+
+#vid13{
+	position: absolute;
+	left: 2%;
+	top: 8%;
+
+}
+
+#vid14{
+	position: absolute;
+	left: 2%;
+	top: 4%;
+
+}
+
+#vid15{
+	position: absolute;
+	left: 570%;
+	top: 1%;
+
+}
+
+#vid16{
+	position: absolute;
+	left: 582%;
+	top: 10%;
+
+}
+#vid17{
+	position: absolute;
+	left: 600%;
+	top: 48%;
+
+}
+#vid18{
+	position: absolute;
+	left: 620%;
+	top: 18%;
+}
+
+#vid19{
+	position: absolute;
+	left: 610%;
+	top: 8%;
+}
+
+
+
+
+

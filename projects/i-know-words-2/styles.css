@@ -1,0 +1,63 @@
+body{
+	background-color: black;
+    cursor: pointer;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 30px;
+	color: white;
+    text-decoration: none;
+   }
+
+   img{
+   	height: 30vw;
+   	width: auto;
+   	margin-left: 20px;
+   	padding-left: 20px;
+   	padding-right: 20px;
+   }
+	.text{
+		width: 30vw;
+		padding-left: 30px;
+		padding-right: 20px;
+	}
+	.grid-container {
+	display: inline-grid;
+	grid-column-gap: 25px;
+	grid-row-gap: 30px;
+	grid-template-columns: auto auto;
+	}
+
+	}
+
+	.grid-item {
+	padding: 20px;
+	}
+
+
+	.container {
+    width: 40em;
+    height: 20em;
+    margin: 8em auto;
+    overflow: visible;
+    position: relative;
+
+}
+
+.slider {
+    top: 1em;
+    position: relative;
+    animation: slider 60s linear infinite;
+}
+
+
+@keyframes slider {
+    0%   { top:   10em }
+    100% { top: -100em }
+}
+
+.special{
+	margin-left: 52px;
+}
+
+.special2{
+	margin-left: 42px;
+}

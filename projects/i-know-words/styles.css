@@ -1,0 +1,50 @@
+body{
+	background-color: black;
+    cursor: pointer;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 30px;
+	color: white;
+    text-decoration: none;
+   }
+
+.container {
+    width: 60%;
+    height: 30%;
+    margin: 8em auto;
+    overflow: auto;
+    position: relative;
+
+}
+
+.slider {
+    top: 1em;
+    position: relative;
+    animation: slider 25s linear infinite;
+}
+
+
+@keyframes slider {
+    0%   { top:   10em }
+    100% { top: -14em }
+}
+
+img{
+    width: 50%;
+    height: auto;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text{
+
+    position: relative;
+    right: 0px;
+    width: 50%;
+    float:right!important;
+    height: 500px;
+    vertical-align: text-top;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+}

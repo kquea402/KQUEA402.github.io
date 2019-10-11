@@ -1,3 +1,2 @@
-window.onload = function() {
-    document.getElementById("my_audio").autoplay()
-}
+var sample = document.getElementById("rally");
+sample.play();

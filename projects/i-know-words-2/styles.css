@@ -2,20 +2,20 @@ body{
 	background-color: black;
     cursor: pointer;
 	font-family: "Times New Roman", Times, serif;
-	font-size: 30px;
+	font-size: 24px;
 	color: white;
     text-decoration: none;
    }
 
    img{
-   	height: 30vw;
+   	height: 22vw;
    	width: auto;
    	margin-left: 20px;
    	padding-left: 20px;
    	padding-right: 20px;
    }
 	.text{
-		width: 30vw;
+		width: 22vw;
 		padding-left: 30px;
 		padding-right: 20px;
 	}
@@ -31,7 +31,6 @@ body{
 	.grid-item {
 	padding: 20px;
 	}
-
 
 	.container {
     width: 40em;
@@ -60,4 +59,12 @@ body{
 
 .special2{
 	margin-left: 42px;
+	position:relative; 
+	top:-23px;
 }
+
+
+
+
+
+
